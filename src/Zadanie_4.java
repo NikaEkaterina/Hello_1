@@ -5,8 +5,10 @@ public class Zadanie_4 {
         Scanner s = new Scanner(System.in);
         System.out.println("Ввести число в бинарном формате: ");
         String b = s.nextLine();
-        int Num = Integer.parseInt(b,);
+        int Num = Integer.parseInt(b,2);
 
         System.out.println(Num);
     }
 }
+
+
